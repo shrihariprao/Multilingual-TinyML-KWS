@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Multilingual TinyML KWS — Interactive Research Dashboard</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px Inter,Arial,sans-serif;background:#f3f6fc;color:#172033}
+header{padding:38px 5%;background:linear-gradient(120deg,#14264c,#315fe7);color:#fff}
+header .eyebrow{font-size:12px;font-weight:700;letter-spacing:1.5px;color:#dbe7ff}h1{font-size:clamp(28px,4vw,44px);margin:12px 0}header p{max-width:900px;line-height:1.65;color:#e5edff}
+main{max-width:1300px;margin:auto;padding:24px 4% 45px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:14px;margin-bottom:22px}
+.card,.panel,.note{background:#fff;border:1px solid #e1e8f4;border-radius:16px;box-shadow:0 5px 20px #18376a0a}
+.card{padding:20px}.label{font-size:12px;font-weight:700;color:#64748b;text-transform:uppercase}.value{font-size:29px;font-weight:800;color:#214cc4;margin:12px 0}.detail{font-size:13px;line-height:1.5;color:#64748b}
+.panel{padding:22px;margin-bottom:20px}.panel h2,.note h2{margin:0 0 8px}.panel p,.note p{line-height:1.65;color:#64748b}.chart{min-height:380px}
+.note{padding:22px;line-height:1.7;border-left:4px solid #e5a02a;margin-bottom:20px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}.links a{padding:17px;background:#f5f8ff;border-radius:12px;color:#244cc1;text-decoration:none;font-weight:700}.links a:hover{background:#e9efff}
+footer{font-size:12px;color:#64748b;padding-top:10px}@media(max-width:600px){header{padding:28px 5%}main{padding:16px 3%}.panel{padding:15px}}
+</style></head><body>
+<header><div class="eyebrow">RESEARCH PROTOTYPE · MULTILINGUAL TINYML KEYWORD SPOTTING</div><h1>Interactive Research Dashboard</h1><p>A single-page overview of the saved four-language pilot, with links to language performance, error analysis and deployment-readiness reports.</p></header>
+<main>
+<div class="grid">
+<div class="card"><div class="label">Synthetic samples</div><div class="value">160</div><div class="detail">Four-language preliminary pilot</div></div>
+<div class="card"><div class="label">Languages</div><div class="value">4</div><div class="detail">Kannada, Malayalam, Tamil, Telugu</div></div>
+<div class="card"><div class="label">Commands</div><div class="value">8</div><div class="detail">Eight evaluated classes</div></div>
+<div class="card"><div class="label">Sample-level accuracy</div><div class="value">87.5%</div><div class="detail">24 test samples; potential related-variant leakage</div></div>
+<div class="card"><div class="label">Family-disjoint accuracy</div><div class="value">20.0%</div><div class="detail">40 held-out synthetic test samples</div></div>
+<div class="card"><div class="label">Family-disjoint macro-F1</div><div class="value">0.169</div><div class="detail">Stricter generalization stress test</div></div>
+</div>
+<section class="panel"><h2>Metric comparison</h2><p>Values from the saved final execution and family-disjoint evaluation reports.</p><div id="metrics" class="chart"></div></section>
+<section class="note"><h2>Research limitations</h2><p>Do not present sample-level accuracy alone as evidence of generalization. The pilot is synthetic, uses small test sets, and the family-disjoint score is substantially lower. Native-speaker text verification is incomplete; physical TinyML device latency and energy have not been measured. The reported TFLite latency belongs to Colab interpreter invocation only.</p></section>
+<section class="panel"><h2>Explore the dashboard suite</h2><div class="links">
+<a href="dashboards/index.html">Master dashboard hub ↗</a>
+<a href="dashboards/01_project_overview.html">Project overview ↗</a>
+<a href="dashboards/02_language_performance.html">Performance by language ↗</a>
+<a href="dashboards/03_error_analysis.html">Error analysis ↗</a>
+<a href="dashboards/04_deployment_readiness.html">Deployment readiness ↗</a>
+</div></section>
+<footer>Metric source: saved evaluation reports in this repository. This is a research prototype, not a deployment-validation claim.</footer>
+</main>
+<script>
+Plotly.newPlot('metrics',[
+{x:['Sample-level','Family-disjoint'],y:[0.875,0.2],type:'bar',name:'Accuracy',marker:{color:'#315fe7'},text:['87.5%','20.0%'],textposition:'outside'},
+{x:['Sample-level','Family-disjoint'],y:[0.8770833,0.168698],type:'bar',name:'Macro-F1',marker:{color:'#18a999'},text:['0.877','0.169'],textposition:'outside'}
+],{barmode:'group',template:'plotly_white',margin:{t:20,l:50,r:25,b:55},yaxis:{title:'Score',range:[0,1]},legend:{orientation:'h',y:1.15}},{responsive:true,displaylogo:false});
+</script></body></html>
