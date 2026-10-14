@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Project Overview</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fc;color:#172033;font:15px Inter,Arial,sans-serif}
+header{padding:34px 5%;color:white;background:linear-gradient(120deg,#14264c,#315fe7)}header .eyebrow{font-size:12px;letter-spacing:1.6px;font-weight:700;color:#dbe7ff}header h1{font-size:clamp(26px,4vw,42px);margin:12px 0}header p{max-width:950px;line-height:1.65;color:#e5edff}
+main{max-width:1400px;margin:auto;padding:24px 4% 44px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+.card,.panel,.note{background:#fff;border:1px solid #e1e8f4;border-radius:16px;box-shadow:0 5px 20px #18376a0a}
+.card{padding:20px}.label{font-size:12px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.5px}.value{font-size:28px;font-weight:800;margin:12px 0;color:#214cc4;overflow-wrap:anywhere}.detail{color:#64748b;font-size:13px;line-height:1.5}
+.panel{padding:22px;margin-bottom:20px;overflow:hidden}.panel h2,.note h2{margin:0 0 8px;font-size:21px}.panel p,.note p{line-height:1.65;color:#64748b}.chart{width:100%;min-height:360px}
+.note{padding:22px;margin-bottom:20px;line-height:1.7}.warn{border-left:4px solid #e5a02a}.good{border-left:4px solid #3a9a75}
+table{width:100%;border-collapse:collapse;overflow-x:auto;display:block}th,td{padding:11px 13px;text-align:left;border-bottom:1px solid #e8edf5;white-space:nowrap;font-size:13px}th{background:#f6f8fc;color:#475569}
+a{color:#244cc1}footer{font-size:12px;color:#64748b;padding:12px 0 0}
+@media(max-width:600px){header{padding:28px 5%}main{padding:16px 3%}.panel{padding:15px}.chart{min-height:300px}}
+</style></head><body><header><div class="eyebrow">MULTILINGUAL TINYML KEYWORD SPOTTING · RESEARCH PROTOTYPE</div><h1>Project Overview</h1><p>Master view of saved dataset scale, evaluation performance, model footprint and unresolved research limitations.</p></header><main>
+<div class="grid">
+<div class="card"><div class="label">Synthetic samples</div><div class="value">160</div><div class="detail">Saved final execution report</div></div>
+<div class="card"><div class="label">Languages</div><div class="value">4</div><div class="detail">Kannada, Malayalam, Tamil, Telugu</div></div>
+<div class="card"><div class="label">Command classes</div><div class="value">8</div><div class="detail">come, go, help, no, repeat, start, stop, yes</div></div>
+<div class="card"><div class="label">Sample-split accuracy</div><div class="value">87.5%</div><div class="detail">24 test samples; related variants may inflate the estimate</div></div>
+<div class="card"><div class="label">Family-disjoint accuracy</div><div class="value">20.0%</div><div class="detail">40 held-out synthetic samples</div></div>
+<div class="card"><div class="label">Family-disjoint macro-F1</div><div class="value">0.169</div><div class="detail">Stricter held-out-family evaluation</div></div>
+</div>
+<section class="panel"><h2>Performance: split design matters</h2><p>Compare saved sample-level and family-disjoint test metrics. Both accuracy and macro-F1 are shown.</p><div id="overviewChart" class="chart"></div></section>
+<div class="grid">
+<div class="card"><div class="label">Keras model size</div><div class="value">6.25 MB</div><div class="detail">6,246,083 bytes</div></div>
+<div class="card"><div class="label">TFLite model size</div><div class="value">2.07 MB</div><div class="detail">2,074,036 bytes</div></div>
+<div class="card"><div class="label">Keras–TFLite agreement</div><div class="value">100%</div><div class="detail">Prediction agreement recorded in saved report</div></div>
+<div class="card"><div class="label">Verified base transcripts</div><div class="value">0 / 32</div><div class="detail">Native-language text verification remains incomplete</div></div>
+</div>
+<section class="note warn"><h2>Critical interpretation</h2><p>The 87.5% sample-split result is not reliable evidence of generalization to unseen utterance families. The family-disjoint evaluation falls to 20% accuracy and 0.169 macro-F1. The experiment uses synthetic samples, contains only 40 held-out family-disjoint samples, and does not establish real human-speech performance.</p></section>
+<section class="panel"><h2>Research status</h2><table><thead><tr><th>Area</th><th>Current evidence</th><th>Status</th></tr></thead><tbody>
+<tr><td>Feature reproduction</td><td>Saved report indicates exact reproducibility</td><td>Checked in existing audit</td></tr>
+<tr><td>Native-speaker validation</td><td>0 of 32 base utterances text-verified</td><td>Pending</td></tr>
+<tr><td>Physical device latency</td><td>No physical TinyML measurements</td><td>Not measured</td></tr>
+<tr><td>Energy and runtime memory</td><td>No physical-device measurements recorded</td><td>Not measured</td></tr>
+<tr><td>Tulu</td><td>Not part of evaluated four-language pilot</td><td>Not evaluated</td></tr>
+</tbody></table></section>
+<script>
+Plotly.newPlot('overviewChart',[
+{x:['Sample-level','Family-disjoint'],y:[0.875,0.2],type:'bar',name:'Accuracy',marker:{color:'#315fe7'},text:['87.5%','20.0%'],textposition:'outside'},
+{x:['Sample-level','Family-disjoint'],y:[0.8770833,0.168698],type:'bar',name:'Macro-F1',marker:{color:'#18a999'},text:['0.877','0.169'],textposition:'outside'}
+],{barmode:'group',template:'plotly_white',margin:{t:20,l:50,r:25,b:50},yaxis:{title:'Score',range:[0,1]},legend:{orientation:'h',y:1.15}},{responsive:true,displaylogo:false});
+</script><footer>Generated from saved repository evaluation reports. Prototype results only; do not interpret as validated real-world speech performance.</footer></main></body></html>
