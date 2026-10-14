@@ -1,0 +1,32 @@
+{
+  "languages_in_scope": [
+    "Kannada",
+    "Tamil",
+    "Telugu",
+    "Malayalam",
+    "Tulu"
+  ],
+  "intent_outputs": [
+    "yes",
+    "no",
+    "start",
+    "stop",
+    "come",
+    "go",
+    "help",
+    "repeat"
+  ],
+  "input_shape_per_sample": [
+    98,
+    40,
+    1
+  ],
+  "test_batch_shape": [
+    2,
+    8
+  ],
+  "parameter_count": 2368,
+  "keras_model_size_bytes": 89869,
+  "model_trained": false,
+  "recognition_accuracy_evaluated": false
+}

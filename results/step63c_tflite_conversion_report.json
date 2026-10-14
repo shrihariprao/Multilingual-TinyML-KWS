@@ -1,0 +1,25 @@
+{
+  "languages_in_scope": [
+    "Kannada",
+    "Tamil",
+    "Telugu",
+    "Malayalam",
+    "Tulu"
+  ],
+  "model_trained": false,
+  "recognition_accuracy_evaluated": false,
+  "conversion": "float32 TensorFlow Lite",
+  "keras_model_bytes": 89869,
+  "tflite_model_bytes": 12556,
+  "conversion_seconds": 9.029,
+  "input_shape": [
+    1,
+    98,
+    40,
+    1
+  ],
+  "output_shape": [
+    1,
+    8
+  ]
+}

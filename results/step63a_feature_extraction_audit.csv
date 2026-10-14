@@ -1,0 +1,11 @@
+file,frames,mel_bins,finite,status,seconds
+kannada_1_16k.wav,98,40,True,PASS,0.04
+kannada_2_16k.wav,98,40,True,PASS,0.015
+malayalam_1_16k.wav,98,40,True,PASS,0.013
+malayalam_2_16k.wav,98,40,True,PASS,0.02
+tamil_1_16k.wav,98,40,True,PASS,0.011
+tamil_2_16k.wav,98,40,True,PASS,0.01
+telugu_1_16k.wav,98,40,True,PASS,0.014
+telugu_2_16k.wav,98,40,True,PASS,0.008
+tulu_1_16k.wav,98,40,True,PASS,0.013
+tulu_2_16k.wav,98,40,True,PASS,0.014

@@ -1,0 +1,8 @@
+{
+  "model": "RBF-SVM",
+  "C": 10,
+  "class_weight": null,
+  "test_accuracy": 0.55,
+  "test_macro_f1": 0.5321428571428573,
+  "test_samples": 60
+}

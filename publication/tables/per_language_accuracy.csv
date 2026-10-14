@@ -1,0 +1,9 @@
+evaluation,language,samples,accuracy
+Original sample-level baseline,kannada,5,1.0
+Original sample-level baseline,malayalam,6,1.0
+Original sample-level baseline,tamil,7,0.7142857142857143
+Original sample-level baseline,telugu,6,0.8333333333333334
+Family-disjoint,kannada,10,0.4
+Family-disjoint,malayalam,10,0.0
+Family-disjoint,tamil,10,0.1
+Family-disjoint,telugu,10,0.3

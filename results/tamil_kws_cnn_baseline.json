@@ -1,0 +1,28 @@
+{
+  "experiment": "tamil_10class_logmel_cnn_baseline",
+  "num_classes": 10,
+  "train_clips": 397,
+  "dev_clips": 59,
+  "test_clips": 60,
+  "accuracy": 0.15,
+  "macro_f1": 0.045959595959595964,
+  "training_seconds": 29.00373911857605,
+  "parameter_count": 2274,
+  "sample_rate": 16000,
+  "n_mels": 40,
+  "n_fft": 400,
+  "hop_length": 160,
+  "seed": 42,
+  "classes": [
+    "அந்த",
+    "இந்த",
+    "இனிய",
+    "என்ன",
+    "என்ற",
+    "நல்ல",
+    "பெரிய",
+    "போக",
+    "போல",
+    "வந்த"
+  ]
+}

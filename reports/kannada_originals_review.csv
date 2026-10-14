@@ -1,0 +1,9 @@
+language,intent,audio_path,phrase_matches_audio,pronunciation_acceptable,natural_spoken_expression,intent_correct,reviewer_notes,review_completed
+kannada,yes,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/yes.wav,True,True,True,True,,True
+kannada,no,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/no.wav,False,True,False,True,,True
+kannada,start,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/start.wav,False,False,False,False,,True
+kannada,stop,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/stop.wav,True,True,True,True,,True
+kannada,come,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/come.wav,True,True,True,True,y,True
+kannada,go,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/go.wav,True,True,True,True,,True
+kannada,help,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/help.wav,True,True,True,True,,True
+kannada,repeat,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/repeat.wav,True,True,True,True,,True

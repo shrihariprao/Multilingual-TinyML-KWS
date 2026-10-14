@@ -1,0 +1,107 @@
+{
+  "project": "Multilingual TinyML Keyword Spotting",
+  "generated_utc": "2026-10-13T17:59:16.460925+00:00",
+  "stage": "four_language_preliminary_pilot",
+  "languages": [
+    "kannada",
+    "malayalam",
+    "tamil",
+    "telugu"
+  ],
+  "commands": [
+    "come",
+    "go",
+    "help",
+    "no",
+    "repeat",
+    "start",
+    "stop",
+    "yes"
+  ],
+  "dataset": {
+    "samples": 160,
+    "feature_shape": [
+      160,
+      40,
+      101,
+      1
+    ],
+    "balanced_per_command": true,
+    "balanced_per_language_command_pair": true,
+    "finite_features": true,
+    "unique_source_paths": 160
+  },
+  "splits": {
+    "train": 112,
+    "validation": 24,
+    "test": 24
+  },
+  "split_integrity": {
+    "no_index_overlap": true,
+    "all_samples_covered_once": true
+  },
+  "existing_evaluation_report": {
+    "project": "Multilingual TinyML Keyword Spotting",
+    "status": "Preliminary four-language pilot evaluation",
+    "dataset": {
+      "total_examples": 160,
+      "test_examples": 24,
+      "feature_shape": [
+        40,
+        101,
+        1
+      ],
+      "classes": [
+        "come",
+        "go",
+        "help",
+        "no",
+        "repeat",
+        "start",
+        "stop",
+        "yes"
+      ],
+      "languages_present": [
+        "kannada",
+        "malayalam",
+        "tamil",
+        "telugu"
+      ],
+      "tulu_validated": false
+    },
+    "keras": {
+      "model_file": "models/multilingual_kws_simple_cnn.keras",
+      "size_bytes": 6246083,
+      "parameters": 517384,
+      "test_accuracy": 0.875,
+      "test_macro_f1": 0.8770833333333333
+    },
+    "tflite": {
+      "model_file": "models/multilingual_kws_simple_cnn_float32.tflite",
+      "size_bytes": 2074036,
+      "test_accuracy": 0.875,
+      "test_macro_f1": 0.8770833333333333,
+      "prediction_agreement": 1.0,
+      "max_probability_difference": 5.185604095458984e-06,
+      "median_invoke_latency_ms": 0.3714015000468862,
+      "p95_invoke_latency_ms": 1.8547050500842481,
+      "latency_scope": "Interpreter invocation only; excludes preprocessing and audio capture"
+    },
+    "limitations": [
+      "Only 24 test examples; metrics are preliminary.",
+      "Independence of related audio variations across splits has not been established.",
+      "Native-language command labels have not all been verified.",
+      "No validated Tulu command dataset is available.",
+      "Physical-device latency and memory have not been measured."
+    ]
+  },
+  "limitations": [
+    "Audio-generation provenance not established from searched project files.",
+    "Native-language transcript verification remains incomplete.",
+    "Speaker independence and recording-level split independence are unverified.",
+    "Test set contains only 24 samples.",
+    "Only four languages are included in this evaluated pilot; Tulu is not validated.",
+    "Colab inference timing is not a physical-device benchmark.",
+    "Feature extraction and normalization implementation still need confirmation."
+  ]
+}

@@ -1,0 +1,6 @@
+language,status,records_scanned,transcript_records,unique_speakers_observed,mean_duration_seconds,examples,error
+Kannada,FAILED,0,0,0,,,DatasetNotFoundError: Dataset 'ARTPARK-IISc/Vaani-transcription-part' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/ARTPARK-IISc/Vaani-transcription-part to ask for access.
+Tamil,FAILED,0,0,0,,,DatasetNotFoundError: Dataset 'ARTPARK-IISc/Vaani-transcription-part' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/ARTPARK-IISc/Vaani-transcription-part to ask for access.
+Telugu,FAILED,0,0,0,,,DatasetNotFoundError: Dataset 'ARTPARK-IISc/Vaani-transcription-part' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/ARTPARK-IISc/Vaani-transcription-part to ask for access.
+Malayalam,FAILED,0,0,0,,,DatasetNotFoundError: Dataset 'ARTPARK-IISc/Vaani-transcription-part' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/ARTPARK-IISc/Vaani-transcription-part to ask for access.
+Tulu,FAILED,0,0,0,,,DatasetNotFoundError: Dataset 'ARTPARK-IISc/Vaani-transcription-part' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/ARTPARK-IISc/Vaani-transcription-part to ask for access.

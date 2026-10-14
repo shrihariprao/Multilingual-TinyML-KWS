@@ -1,0 +1,6 @@
+language,records_scanned,candidate_matches,intents_with_matches,matched_intents,status
+Kannada,1000,22,4,"come, no, repeat, start",SCAN_COMPLETE
+Tamil,1000,26,5,"come, help, no, repeat, yes",SCAN_COMPLETE
+Telugu,1000,66,2,"come, help",SCAN_COMPLETE
+Malayalam,1000,2,2,"help, no",SCAN_COMPLETE
+Tulu,1000,0,0,,SCAN_COMPLETE

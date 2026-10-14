@@ -1,0 +1,20 @@
+source,language,word_level_status,usable_command_data_verified,next_action
+MLCommons MSWC,Kannada,Not listed in published language inventory,False,Seek another source or collect recordings
+MLCommons MSWC,Tamil,Tamil pilot exists in project,True,Map candidate words to verified shared intents
+MLCommons MSWC,Telugu,Not listed in published language inventory,False,Seek another source or collect recordings
+MLCommons MSWC,Malayalam,Not listed in published language inventory,False,Seek another source or collect recordings
+MLCommons MSWC,Tulu,Not listed in published language inventory,False,Seek another source or collect recordings
+Common Voice single-word target segment,Tamil,Yes/no and digits listed,False,Check exact labels and clip counts before use
+Common Voice single-word target segment,Kannada,Not listed in published language inventory,False,Seek another source or collect recordings
+Common Voice single-word target segment,Telugu,Not listed in published language inventory,False,Seek another source or collect recordings
+Common Voice single-word target segment,Malayalam,Not listed in published language inventory,False,Seek another source or collect recordings
+Common Voice single-word target segment,Tulu,Not listed in published language inventory,False,Seek another source or collect recordings
+Google FLEURS,Kannada,Sentence-level audio; command clips unverified,False,Check alignment feasibility or record commands
+Google FLEURS,Tamil,Sentence-level audio; command clips unverified,False,Check alignment feasibility or record commands
+Google FLEURS,Telugu,Sentence-level audio; command clips unverified,False,Check alignment feasibility or record commands
+Google FLEURS,Malayalam,Sentence-level audio; command clips unverified,False,Check alignment feasibility or record commands
+Vaani,Kannada,Speech and some transcripts observed in partial audit,False,Assess command coverage and alignment feasibility
+Vaani,Tamil,Speech and some transcripts observed in partial audit,False,Assess command coverage and alignment feasibility
+Vaani,Telugu,Speech and some transcripts observed in partial audit,False,Assess command coverage and alignment feasibility
+Vaani,Malayalam,Speech and some transcripts observed in partial audit,False,Assess command coverage and alignment feasibility
+Vaani,Tulu,Speech and some transcripts observed in partial audit,False,Assess command coverage and alignment feasibility

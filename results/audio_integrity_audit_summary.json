@@ -1,0 +1,62 @@
+{
+  "audio_root": "/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio",
+  "files_found": 160,
+  "successfully_audited": 160,
+  "audit_errors": 0,
+  "sample_rates_hz": [
+    44100
+  ],
+  "channel_counts": [
+    1
+  ],
+  "non_finite_files": [],
+  "exact_duplicate_groups": [],
+  "version_counts_by_folder": {
+    "1": {
+      "kannada": 8,
+      "malayalam": 8,
+      "tamil": 8,
+      "telugu": 8
+    },
+    "2": {
+      "kannada": 8,
+      "malayalam": 8,
+      "tamil": 8,
+      "telugu": 8
+    },
+    "3": {
+      "kannada": 8,
+      "malayalam": 8,
+      "tamil": 8,
+      "telugu": 8
+    },
+    "4": {
+      "kannada": 8,
+      "malayalam": 8,
+      "tamil": 8,
+      "telugu": 8
+    },
+    "5": {
+      "kannada": 8,
+      "malayalam": 8,
+      "tamil": 8,
+      "telugu": 8
+    }
+  },
+  "manifest_checks": {
+    "path": "/content/drive/MyDrive/Multilingual_TinyML_KWS/data/synthetic_speech_pilot_manifest.csv",
+    "rows": 32,
+    "columns": [
+      "language",
+      "intent",
+      "text",
+      "text_verified",
+      "audio_generated",
+      "audio_path",
+      "generation_error"
+    ],
+    "audio_generated_true_count": 32,
+    "text_verified_true_count": 0,
+    "generation_error_nonempty_count": 0
+  }
+}

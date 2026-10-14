@@ -1,0 +1,161 @@
+language,intent,text,text_verified,audio_generated,audio_path,generation_error,variation,audio_listened_to,phrase_matches_audio,pronunciation_acceptable,natural_spoken_expression,intent_correct,reviewer_notes,reviewer_id,review_completed
+Kannada,yes,ಹೌದು,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/yes.wav,,,False,False,False,False,False,,,False
+Kannada,no,ಇಲ್ಲ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/no.wav,,,False,False,False,False,False,,,False
+Kannada,start,ಪ್ರಾರಂಭಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/start.wav,,,False,False,False,False,False,,,False
+Kannada,stop,ನಿಲ್ಲಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/stop.wav,,,False,False,False,False,False,,,False
+Kannada,come,ಬನ್ನಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/come.wav,,,False,False,False,False,False,,,False
+Kannada,go,ಹೋಗಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/go.wav,,,False,False,False,False,False,,,False
+Kannada,help,ಸಹಾಯ ಮಾಡಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/help.wav,,,False,False,False,False,False,,,False
+Kannada,repeat,ಮತ್ತೆ ಹೇಳಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/repeat.wav,,,False,False,False,False,False,,,False
+Tamil,yes,ஆம்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/yes.wav,,,False,False,False,False,False,,,False
+Tamil,no,இல்லை,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/no.wav,,,False,False,False,False,False,,,False
+Tamil,start,தொடங்குங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/start.wav,,,False,False,False,False,False,,,False
+Tamil,stop,நிறுத்துங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/stop.wav,,,False,False,False,False,False,,,False
+Tamil,come,வாருங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/come.wav,,,False,False,False,False,False,,,False
+Tamil,go,போங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/go.wav,,,False,False,False,False,False,,,False
+Tamil,help,உதவுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/help.wav,,,False,False,False,False,False,,,False
+Tamil,repeat,மீண்டும் சொல்லுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/repeat.wav,,,False,False,False,False,False,,,False
+Telugu,yes,అవును,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/yes.wav,,,False,False,False,False,False,,,False
+Telugu,no,కాదు,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/no.wav,,,False,False,False,False,False,,,False
+Telugu,start,ప్రారంభించండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/start.wav,,,False,False,False,False,False,,,False
+Telugu,stop,ఆపండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/stop.wav,,,False,False,False,False,False,,,False
+Telugu,come,రండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/come.wav,,,False,False,False,False,False,,,False
+Telugu,go,వెళ్లండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/go.wav,,,False,False,False,False,False,,,False
+Telugu,help,సహాయం చేయండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/help.wav,,,False,False,False,False,False,,,False
+Telugu,repeat,మళ్లీ చెప్పండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/repeat.wav,,,False,False,False,False,False,,,False
+Malayalam,yes,അതെ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/yes.wav,,,False,False,False,False,False,,,False
+Malayalam,no,ഇല്ല,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/no.wav,,,False,False,False,False,False,,,False
+Malayalam,start,ആരംഭിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/start.wav,,,False,False,False,False,False,,,False
+Malayalam,stop,നിർത്തുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/stop.wav,,,False,False,False,False,False,,,False
+Malayalam,come,വരൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/come.wav,,,False,False,False,False,False,,,False
+Malayalam,go,പോകൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/go.wav,,,False,False,False,False,False,,,False
+Malayalam,help,സഹായിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/help.wav,,,False,False,False,False,False,,,False
+Malayalam,repeat,വീണ്ടും പറയുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/repeat.wav,,,False,False,False,False,False,,,False
+Kannada,yes,ಹೌದು,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/yes_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,yes,ಹೌದು,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/yes_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,yes,ಹೌದು,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/yes_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,yes,ಹೌದು,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/yes_v5.wav,,5.0,False,False,False,False,False,,,False
+Kannada,no,ಇಲ್ಲ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/no_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,no,ಇಲ್ಲ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/no_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,no,ಇಲ್ಲ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/no_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,no,ಇಲ್ಲ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/no_v5.wav,,5.0,False,False,False,False,False,,,False
+Kannada,start,ಪ್ರಾರಂಭಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/start_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,start,ಪ್ರಾರಂಭಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/start_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,start,ಪ್ರಾರಂಭಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/start_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,start,ಪ್ರಾರಂಭಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/start_v5.wav,,5.0,False,False,False,False,False,,,False
+Kannada,stop,ನಿಲ್ಲಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/stop_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,stop,ನಿಲ್ಲಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/stop_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,stop,ನಿಲ್ಲಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/stop_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,stop,ನಿಲ್ಲಿಸಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/stop_v5.wav,,5.0,False,False,False,False,False,,,False
+Kannada,come,ಬನ್ನಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/come_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,come,ಬನ್ನಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/come_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,come,ಬನ್ನಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/come_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,come,ಬನ್ನಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/come_v5.wav,,5.0,False,False,False,False,False,,,False
+Kannada,go,ಹೋಗಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/go_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,go,ಹೋಗಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/go_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,go,ಹೋಗಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/go_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,go,ಹೋಗಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/go_v5.wav,,5.0,False,False,False,False,False,,,False
+Kannada,help,ಸಹಾಯ ಮಾಡಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/help_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,help,ಸಹಾಯ ಮಾಡಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/help_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,help,ಸಹಾಯ ಮಾಡಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/help_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,help,ಸಹಾಯ ಮಾಡಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/help_v5.wav,,5.0,False,False,False,False,False,,,False
+Kannada,repeat,ಮತ್ತೆ ಹೇಳಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/repeat_v2.wav,,2.0,False,False,False,False,False,,,False
+Kannada,repeat,ಮತ್ತೆ ಹೇಳಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/repeat_v3.wav,,3.0,False,False,False,False,False,,,False
+Kannada,repeat,ಮತ್ತೆ ಹೇಳಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/repeat_v4.wav,,4.0,False,False,False,False,False,,,False
+Kannada,repeat,ಮತ್ತೆ ಹೇಳಿ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/kannada/repeat_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,yes,ஆம்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/yes_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,yes,ஆம்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/yes_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,yes,ஆம்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/yes_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,yes,ஆம்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/yes_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,no,இல்லை,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/no_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,no,இல்லை,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/no_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,no,இல்லை,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/no_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,no,இல்லை,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/no_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,start,தொடங்குங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/start_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,start,தொடங்குங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/start_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,start,தொடங்குங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/start_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,start,தொடங்குங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/start_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,stop,நிறுத்துங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/stop_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,stop,நிறுத்துங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/stop_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,stop,நிறுத்துங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/stop_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,stop,நிறுத்துங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/stop_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,come,வாருங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/come_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,come,வாருங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/come_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,come,வாருங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/come_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,come,வாருங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/come_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,go,போங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/go_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,go,போங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/go_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,go,போங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/go_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,go,போங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/go_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,help,உதவுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/help_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,help,உதவுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/help_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,help,உதவுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/help_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,help,உதவுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/help_v5.wav,,5.0,False,False,False,False,False,,,False
+Tamil,repeat,மீண்டும் சொல்லுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/repeat_v2.wav,,2.0,False,False,False,False,False,,,False
+Tamil,repeat,மீண்டும் சொல்லுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/repeat_v3.wav,,3.0,False,False,False,False,False,,,False
+Tamil,repeat,மீண்டும் சொல்லுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/repeat_v4.wav,,4.0,False,False,False,False,False,,,False
+Tamil,repeat,மீண்டும் சொல்லுங்கள்,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/tamil/repeat_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,yes,అవును,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/yes_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,yes,అవును,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/yes_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,yes,అవును,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/yes_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,yes,అవును,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/yes_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,no,కాదు,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/no_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,no,కాదు,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/no_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,no,కాదు,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/no_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,no,కాదు,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/no_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,start,ప్రారంభించండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/start_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,start,ప్రారంభించండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/start_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,start,ప్రారంభించండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/start_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,start,ప్రారంభించండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/start_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,stop,ఆపండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/stop_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,stop,ఆపండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/stop_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,stop,ఆపండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/stop_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,stop,ఆపండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/stop_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,come,రండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/come_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,come,రండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/come_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,come,రండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/come_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,come,రండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/come_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,go,వెళ్లండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/go_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,go,వెళ్లండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/go_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,go,వెళ్లండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/go_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,go,వెళ్లండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/go_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,help,సహాయం చేయండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/help_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,help,సహాయం చేయండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/help_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,help,సహాయం చేయండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/help_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,help,సహాయం చేయండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/help_v5.wav,,5.0,False,False,False,False,False,,,False
+Telugu,repeat,మళ్లీ చెప్పండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/repeat_v2.wav,,2.0,False,False,False,False,False,,,False
+Telugu,repeat,మళ్లీ చెప్పండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/repeat_v3.wav,,3.0,False,False,False,False,False,,,False
+Telugu,repeat,మళ్లీ చెప్పండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/repeat_v4.wav,,4.0,False,False,False,False,False,,,False
+Telugu,repeat,మళ్లీ చెప్పండి,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/telugu/repeat_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,yes,അതെ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/yes_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,yes,അതെ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/yes_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,yes,അതെ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/yes_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,yes,അതെ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/yes_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,no,ഇല്ല,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/no_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,no,ഇല്ല,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/no_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,no,ഇല്ല,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/no_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,no,ഇല്ല,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/no_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,start,ആരംഭിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/start_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,start,ആരംഭിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/start_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,start,ആരംഭിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/start_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,start,ആരംഭിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/start_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,stop,നിർത്തുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/stop_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,stop,നിർത്തുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/stop_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,stop,നിർത്തുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/stop_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,stop,നിർത്തുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/stop_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,come,വരൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/come_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,come,വരൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/come_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,come,വരൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/come_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,come,വരൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/come_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,go,പോകൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/go_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,go,പോകൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/go_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,go,പോകൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/go_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,go,പോകൂ,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/go_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,help,സഹായിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/help_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,help,സഹായിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/help_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,help,സഹായിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/help_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,help,സഹായിക്കുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/help_v5.wav,,5.0,False,False,False,False,False,,,False
+Malayalam,repeat,വീണ്ടും പറയുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/repeat_v2.wav,,2.0,False,False,False,False,False,,,False
+Malayalam,repeat,വീണ്ടും പറയുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/repeat_v3.wav,,3.0,False,False,False,False,False,,,False
+Malayalam,repeat,വീണ്ടും പറയുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/repeat_v4.wav,,4.0,False,False,False,False,False,,,False
+Malayalam,repeat,വീണ്ടും പറയുക,False,True,/content/drive/MyDrive/Multilingual_TinyML_KWS/data/pilot_audio/malayalam/repeat_v5.wav,,5.0,False,False,False,False,False,,,False

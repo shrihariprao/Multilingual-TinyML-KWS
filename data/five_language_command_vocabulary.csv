@@ -1,0 +1,9 @@
+﻿intent_id,intent,description,Kannada,Tamil,Telugu,Malayalam,Tulu,native_verified,verification_notes
+1,yes,Affirm,,,,,,False,
+2,no,Negate,,,,,,False,
+3,start,Start an action,,,,,,False,
+4,stop,Stop an action,,,,,,False,
+5,come,Request someone to come,,,,,,False,
+6,go,Request someone to go,,,,,,False,
+7,help,Request help,,,,,,False,
+8,repeat,Ask to repeat,,,,,,False,

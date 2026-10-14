@@ -1,0 +1,38 @@
+﻿language,intent,candidate_expression,transcripts_scanned,matching_transcripts,candidate_verified
+Kannada,yes,ಹೌದು,100,0,False
+Kannada,no,ಇಲ್ಲ,100,28,False
+Kannada,start,ಆರಂಭಿಸಿ,100,0,False
+Kannada,stop,ನಿಲ್ಲಿಸಿ,100,0,False
+Kannada,come,ಬನ್ನಿ,100,0,False
+Kannada,go,ಹೋಗಿ,100,2,False
+Kannada,help,ಸಹಾಯ ಮಾಡಿ,100,0,False
+Kannada,repeat,ಮತ್ತೆ ಹೇಳಿ,100,0,False
+Tamil,yes,ஆமாம்,100,0,False
+Tamil,no,இல்லை,100,0,False
+Tamil,start,தொடங்குங்கள்,100,0,False
+Tamil,stop,நிறுத்துங்கள்,100,0,False
+Tamil,come,வாங்க,100,17,False
+Tamil,go,போங்கள்,100,0,False
+Tamil,help,உதவுங்கள்,100,0,False
+Tamil,repeat,மீண்டும் சொல்லுங்கள்,100,0,False
+Telugu,yes,అవును,100,0,False
+Telugu,no,కాదు,100,0,False
+Telugu,start,ప్రారంభించండి,100,0,False
+Telugu,stop,ఆపండి,100,0,False
+Telugu,come,రండి,100,0,False
+Telugu,go,వెళ్లండి,100,0,False
+Telugu,help,సహాయం చేయండి,100,0,False
+Telugu,repeat,మళ్లీ చెప్పండి,100,0,False
+Malayalam,yes,അതെ,100,0,False
+Malayalam,no,ഇല്ല,100,2,False
+Malayalam,start,തുടങ്ങൂ,100,0,False
+Malayalam,stop,നിർത്തൂ,100,0,False
+Malayalam,come,വരൂ,100,0,False
+Malayalam,go,പോകൂ,100,0,False
+Malayalam,help,സഹായിക്കൂ,100,0,False
+Malayalam,repeat,വീണ്ടും പറയൂ,100,0,False
+Tulu,yes,ಅಂದು,100,0,False
+Tulu,no,ಅಟ್ಟು,100,0,False
+Tulu,come,ಬಲೆಯೆ,100,0,False
+Tulu,go,ಪೊಲೆಯೆ,100,0,False
+Tulu,help,ಸಾಯ,100,0,False

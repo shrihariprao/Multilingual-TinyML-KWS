@@ -1,0 +1,199 @@
+{
+  "evaluation_type": "family_disjoint_preliminary_pilot",
+  "split_sizes": {
+    "train": 80,
+    "validation": 40,
+    "test": 40
+  },
+  "unique_families": {
+    "train": 16,
+    "validation": 8,
+    "test": 8
+  },
+  "test_accuracy": 0.2,
+  "test_macro_f1": 0.16869796869796871,
+  "per_language": {
+    "kannada": {
+      "test_samples": 10,
+      "accuracy": 0.4,
+      "macro_f1": 0.13333333333333333
+    },
+    "malayalam": {
+      "test_samples": 10,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "tamil": {
+      "test_samples": 10,
+      "accuracy": 0.1,
+      "macro_f1": 0.05
+    },
+    "telugu": {
+      "test_samples": 10,
+      "accuracy": 0.3,
+      "macro_f1": 0.12169312169312169
+    }
+  },
+  "classification_report": {
+    "come": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "go": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "help": {
+      "precision": 0.16666666666666666,
+      "recall": 0.2,
+      "f1-score": 0.18181818181818182,
+      "support": 5.0
+    },
+    "no": {
+      "precision": 0.2,
+      "recall": 0.4,
+      "f1-score": 0.26666666666666666,
+      "support": 5.0
+    },
+    "repeat": {
+      "precision": 0.5,
+      "recall": 0.8,
+      "f1-score": 0.6153846153846154,
+      "support": 5.0
+    },
+    "start": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "stop": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "yes": {
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1-score": 0.2857142857142857,
+      "support": 5.0
+    },
+    "accuracy": 0.2,
+    "macro avg": {
+      "precision": 0.17083333333333334,
+      "recall": 0.2,
+      "f1-score": 0.16869796869796871,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 0.17083333333333334,
+      "recall": 0.2,
+      "f1-score": 0.1686979686979687,
+      "support": 40.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      1
+    ]
+  ],
+  "class_names": [
+    "come",
+    "go",
+    "help",
+    "no",
+    "repeat",
+    "start",
+    "stop",
+    "yes"
+  ],
+  "model_parameters": 27976,
+  "limitations": [
+    "Only 40 held-out synthetic audio samples.",
+    "Generated audio text has not been fully verified by native speakers.",
+    "Family-disjoint evaluation does not establish generalization to real human speech.",
+    "No physical TinyML hardware latency or energy measurement."
+  ]
+}

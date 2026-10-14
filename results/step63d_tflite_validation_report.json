@@ -1,0 +1,22 @@
+{
+  "model_trained": false,
+  "recognition_accuracy_evaluated": false,
+  "sample_count": 10,
+  "input_shape": [
+    1,
+    98,
+    40,
+    1
+  ],
+  "output_shape": [
+    1,
+    8
+  ],
+  "outputs_finite": true,
+  "max_absolute_output_difference": 2.2351741790771484e-08,
+  "mean_absolute_output_difference": 6.146728903644316e-09,
+  "keras_tflite_class_agreement": 1.0,
+  "mean_inference_latency_ms": 0.6779485005608876,
+  "p95_inference_latency_ms": 2.6871725504861343,
+  "latency_scope": "model invocation only; excludes audio preprocessing"
+}

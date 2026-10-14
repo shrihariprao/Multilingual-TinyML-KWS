@@ -1,0 +1,10 @@
+*.zip
+
+.env
+
+.venv/
+
+__pycache__/
+
+.ipynb_checkpoints/
+data/mswc_metadata.json.gz

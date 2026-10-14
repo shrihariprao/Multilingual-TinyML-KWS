@@ -1,0 +1,122 @@
+{
+  "experiment": "tamil_cnn_classweighted_fresh_initialization",
+  "training_clips": 397,
+  "validation_clips": 59,
+  "classes": [
+    "அந்த",
+    "இந்த",
+    "இனிய",
+    "என்ன",
+    "என்ற",
+    "நல்ல",
+    "பெரிய",
+    "போக",
+    "போல",
+    "வந்த"
+  ],
+  "parameters": 2274,
+  "epochs_completed": 50,
+  "training_seconds": 59.895,
+  "validation_accuracy": 0.15254237288135594,
+  "validation_macro_f1": 0.1111811081638668,
+  "validation_predicted_class_counts": {
+    "அந்த": 0,
+    "இந்த": 0,
+    "இனிய": 6,
+    "என்ன": 2,
+    "என்ற": 0,
+    "நல்ல": 5,
+    "பெரிய": 2,
+    "போக": 12,
+    "போல": 8,
+    "வந்த": 24
+  },
+  "class_weights": {
+    "அந்த": 0.794,
+    "இந்த": 0.5671428571428572,
+    "இனிய": 1.8045454545454545,
+    "என்ன": 0.49625,
+    "என்ற": 2.0894736842105264,
+    "நல்ல": 0.6508196721311476,
+    "பெரிய": 1.7260869565217392,
+    "போக": 1.985,
+    "போல": 2.335294117647059,
+    "வந்த": 1.1342857142857143
+  },
+  "per_class_report": {
+    "அந்த": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 8.0
+    },
+    "இந்த": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 9.0
+    },
+    "இனிய": {
+      "precision": 0.16666666666666666,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.2222222222222222,
+      "support": 3.0
+    },
+    "என்ன": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 12.0
+    },
+    "என்ற": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "நல்ல": {
+      "precision": 0.4,
+      "recall": 0.25,
+      "f1-score": 0.3076923076923077,
+      "support": 8.0
+    },
+    "பெரிய": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "போக": {
+      "precision": 0.25,
+      "recall": 0.75,
+      "f1-score": 0.375,
+      "support": 4.0
+    },
+    "போல": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "வந்த": {
+      "precision": 0.125,
+      "recall": 0.6,
+      "f1-score": 0.20689655172413793,
+      "support": 5.0
+    },
+    "accuracy": 0.15254237288135594,
+    "macro avg": {
+      "precision": 0.09416666666666666,
+      "recall": 0.1933333333333333,
+      "f1-score": 0.1111811081638668,
+      "support": 59.0
+    },
+    "weighted avg": {
+      "precision": 0.0902542372881356,
+      "recall": 0.15254237288135594,
+      "f1-score": 0.09597776079365794,
+      "support": 59.0
+    }
+  },
+  "test_set_used_for_selection": false
+}

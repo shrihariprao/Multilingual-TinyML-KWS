@@ -1,0 +1,30 @@
+{
+  "test_samples": 60,
+  "preprocessing_shape": [
+    60,
+    40,
+    101,
+    1
+  ],
+  "keras_accuracy_on_recreated_features": 0.15,
+  "float32_tflite": {
+    "file": "tamil_kws_cnn_float32.tflite",
+    "size_bytes": 13488,
+    "accuracy": 0.15,
+    "macro_f1": 0.0468030646443367,
+    "agreement_with_keras": 1.0,
+    "mean_latency_ms": 0.0895280500571971,
+    "median_latency_ms": 0.07712499973422382,
+    "p95_latency_ms": 0.15021595017969958
+  },
+  "dynamic_quant_tflite": {
+    "file": "tamil_kws_cnn_dynamic_quant.tflite",
+    "size_bytes": 13488,
+    "accuracy": 0.15,
+    "macro_f1": 0.0468030646443367,
+    "agreement_with_keras": 1.0,
+    "mean_latency_ms": 0.08324213346592539,
+    "median_latency_ms": 0.07546500000898959,
+    "p95_latency_ms": 0.11437600028330047
+  }
+}

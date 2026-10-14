@@ -1,0 +1,6 @@
+language,records_scanned,previews_saved,audio_failures,status
+Kannada,1000,0,22,PASS
+Tamil,1000,0,26,PASS
+Telugu,1000,0,66,PASS
+Malayalam,1000,0,2,PASS
+Tulu,1000,0,1000,PASS

@@ -1,0 +1,50 @@
+﻿language,intent,candidate_expression,transcript,match_type,label_status
+Kannada,no,ಇಲ್ಲ,<noise> ಒಂದು ಬದಿಯಲ್ಲಿ <pause> ಒಂದು ಪ್ರಯಾಣಿಕರ ತಂಗುದಾಣ ಇರುವುದನ್ನು ನಾವು ಗಮನಿಸಬಹುದು <pause> ಆ ತಂಗುದಾಣ ಹಲವಾರು ಜನರು ಕುಳಿತುಕೊಂಡಿರುವುದನ್ನು ನಾವು ಗಮನಿಸಬಹುದು <pause> ನೋಡಲು ವಿಶಾಲವಾದ ರಸ್ತೆಯನ್ನು ಹೊಂದಿರುವುದನ್ನು ನಾವು ಇಲ್ಲಿ ನಾವು ಇಲ್ಲಿ ಕಾಣಬಹುದಾಗಿದೆ. </noise>,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇಲ್ಲಿ ಎಲ್ಲಾ ತರಹದ ಸೂಪರ {Super} ರ್ಮಾರ್ಕೆಟ್ಗ {Market} ಳು ಸಿಗುತ್ತವೆ ಧಾನ್ಯಪದಾರ್ಥಗಳು ಸಿಗುತ್ತವೆ ಈ ಅಂಗಡಿಯಲ್ಲಿ ಹೋಗಿ ನೋಡಿದರೆ ಎಲ್ಲಾ ತರಹದ ಸಾಮಾನ್ಯ ಸಾಮಾನುಗಳು ಸಿಗುತ್ತವೆ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,go,ಹೋಗಿ,ಇಲ್ಲಿ ಎಲ್ಲಾ ತರಹದ ಸೂಪರ {Super} ರ್ಮಾರ್ಕೆಟ್ಗ {Market} ಳು ಸಿಗುತ್ತವೆ ಧಾನ್ಯಪದಾರ್ಥಗಳು ಸಿಗುತ್ತವೆ ಈ ಅಂಗಡಿಯಲ್ಲಿ ಹೋಗಿ ನೋಡಿದರೆ ಎಲ್ಲಾ ತರಹದ ಸಾಮಾನ್ಯ ಸಾಮಾನುಗಳು ಸಿಗುತ್ತವೆ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇಲ್ಲಿ ಮನೆ ಗಳನ್ನೂ ನೋಡ ಬಹುದು ಮತ್ತು ಗಿಡ ಮರಗಳನ್ನು ನಾವು ನೋಡ ಬಹುದು ಮ--,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇಲ್ಲಿ ನಮ್ಮ ಅವ್ ವನ್ ಕಚೇರಿ ಕಾಣ್ ಲಿಕತ್ತದ. ಇದು ಜಿ_ಎಸ್_ಟಿ {g_s_t} ಭವನ ಅಂತ ಅದು ಗೂಡ್ಸ್ ಸರ್ವಿಸ್ ಟ್ಯಾಕ್ಸ್ ಭವನ {goods service tax} ಇದು ಬೆಳಗಾವಿದು ಕುಲಾಬಿ{ಕ್ಲಬ್}{club} ರೋಡ್ {road} ಕಡೆ ಅದ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ನಾವು ಇಲ್ಲಿ ಒಂದು ದೊಡ್ಡದಾದ ಕಟ್ಟಡವನ್ನು ನೋಡಬಹುದು. ಆ ಕಟ್ಟಡದ ಬಣ್ಣ ಕೇಸರಿ ಮತ್ತು ಹಸಿರುದಾಗಿರುವುದನ್ನು ನೋಡಬಹುದು.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಈ ತರಹದ ಕಿರಾಣಿ ಸಾಮಾನುಗಳು ಹಾಗು ಆಯಿಲ {oil} ಗಳು ಹಾಗು ಎಲ್ಲ ತರಹದ ಮನೆ ಗೆ ಉಪಯೋಗ್ ವಾದ ಪರಿಕರಗಳು ಇಲ್ಲಿ ಯೋಗ್ಯ ದರದಲ್ಲಿ ದೊರೆಯುತ್ತವೇ ದಯವಿಟ್ಟು ಸಂಪರ್ಕಿಸಿ ಹಾಗು ಒಮ್ಮೆ ವಿಸಿಟ್ {visit} ಆಗಿ ನೋಡಿ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,<by_noise>ನಮಲ್ಲಿ ಎಲ್ಲ ತರಹದ ಫ್ರೆಶಾದ{fresh} ಹಣ್ಣು ಹಂಪಲುಗಳು ಸಿಗುತ್ತವೆ ಹಾಗು ಇಲ್ಲಿ ಕ್ಯಾಶ್ {cash} ಅಲ್ಲದೆ ಗೂಗಲ್ ಪೆ ಫೋನ್ ಪೆ{google pay phone pay} <pause> ಕೂಡ ಸುಲಭ್ಯವಿದೆ.</by_noise>,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,<noise> ಇಲ್ಲಿ ಆಟೋ {auto} ಡ್ರೈವರ್ {driver} ಮತ್ತೆ ಅವ್ನ ಆಟೋನು {auto} ಅಯ್ತ್ನಿ ಈ ಆಟೋದಾಗೆ {auto} ಏನ್ ಅಂತ ಅಂದ್ರೆ ನಾಲಕ್ ಜನ ಹತ್ತಿ ನಿಂಥಂಕೊಂಡರ </noise>.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇಲ್ಲಿ ನಾಲ್ಕು ನಂಬರ್ {number} ಅಂತ ಬರ್ದರ ಅಮೆಲಿ ಇಲ್ಲಿ ಎಲ್ಲ ಗ್ರೀನ್ {green} ಐತಿ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇಲ್ಲೇ ಇ ಚಿತ್ರದ ಒಳಗಡೆ ನಾವು ಒಂದು ಮ್ಯೂಸಿಯಂ {museum} ನೋಡಕ್ ಹೊಂಥಿವಿ ಮ್ಯೂಸಿಯಂ {museum} ಒಳಗಡೆ ಎಲ್ಲ ದೇವ್ರವಿಗ್ರಹಗಳು ಎಲ್ಲ ಆದವು --,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಮತ್ತು ಇಲ್ಲಿ ನಾವು ನೋಡಬಹುದು ಒಂದು ದೊಡ್ಡದಾದ ಟೇಬಲ್ಸ್ {tables} ಸಹ ಇಲ್ಲಿ ಅಳವಡಿಸಿದ್ದಾರೆ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,<static_noise> ಈದ್ರಲ್ಲಿ ವ್ಯಾನ್ {van} ನಲ್ಲಿ ನಾವು ಕುತ್ಕೊಂಡು [inhaling] ಅ ನಮ್ಮ ಒಂದು [inhaling] ನೈಜ್ಯ ಪ್ರಾಣಿಗಳನ್ನ ನಾವು ಇಲ್ಲಿ ನೋಡಬಹುದು ಕಾಡ್ ಪ್ರಾಣಿಗಳನ್ನನೋಡಕ್ಕೆ [inhaling] ಈವಂದು ಜೀಪ್ {jeep} ನಮ್ಮಗೆ ಲಭ್ಯವಿದೆ [inhaling] ಇವಂದು ಬಂಡೀಪುರ್ ಪಾರ್ಕ್ {park} ಅಲ್ಲಿ. </static_noise>,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,[unintelligible] ದಾನ್ ಪೆಟ್ಟಿಗೆ ಅಂತ ಹಾಕ್ಯಾರ್ ಇಲ್ಲೇ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ತನ್ನ ಲಗೇಜ್ {luggage} ಅನ್ನು ಇಲ್ಲಿ ಇಟ್ಟಕೊಂಡು ಕೆಲವು ಪ್ರಯಾಣಿಕರು ಇಲ್ಲಿ ಕೂತಿರುವುದನ್ನು ನಾವು ಕಾಣಬಹುದು.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,<static_noise> ಇಲ್ಲಿ ಎಲ್ಲರೂ ಕ್ರಿಕೆಟ್ {cricket} ಕ್ರಿಕೆಟ್ {cricket} ಒಂದು <pause> ಆಮ್ <pause> ಬಹಳ ಪ್ರೀತಿ ಇಂದ ಆಡುವ ಗೇಮ್ {game}. </static_noise>,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಬೇರೆ ಕಡೆ ಅಲ್ಲಿ ಯಾರ ಒಂದು ಬೇರೆ ರಾಜ್ಯ ಇಲ್ಲಿ ಕರ ಬೇರೆ ಊರಿಗ್ ಹೋಗುದಿದ್ರೆ ನಾವ್ ಟ್ರೈನ್ {train} ನಲ್ಲಿ ಹೋಗಬೋದು.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇಲ್ಲಿ ಆಟೋ {auto} ರಿಪೇರಿ {repair} ಮಾಡಕ್ ಹತ್ತರ <pause> ಇಬ್ರು ಮನುಷ್ಯರುಗಳು ಇಬ್ರು ಮನುಷ್ಯ ಅದರ ಅವರ ಆಟೋ {auto} ರಿಪೇರಿ {repair} ಮಾಡುತ್ತಾರ ಏನೋ .,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,<static_noise> ಇಲ್ಲಿ ಒಂದು ಗೋಡೌನ್ {godown} ತರ ಕಾಣಿಸ್ತಿದೆ ಈ ಗೋಡೌನ್ {godown} ಒಳಗೆ ಇರುವ ಚೀಲಗಳನ್ನು ಒಂದು </static_noise> --,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇದು ಒಂದು ಸೈಕಲ್ {cycle} ಶೋಪ್ {shop} ಆಗಿದೆ ಇಲ್ಲಿ ಎಲ್ಲ ತರದ ಸೈ --,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಸೈಕಲ್ {cycle} ನ ನೋಡುತ್ತಿರುವುದು ಕಾಣಬಹುದು ಇಲ್ಲಿ ಒಬ್ಬ ಸೈಕಲ್ {cycle} ನ ಸವಾರಿ <noise> ಮಾಡುತ್ತಿದ್ದಾನೆ.</noise>,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,<noise> ಇಲ್ಲಿ ಇದರ ಒಳಗಡೆ ನಾವು ಒಂದು ಮೋರ್ ನ್ನ ನೋಡಕ್ ಹೋನ್ತಿವ್ರಿ ಈ ಮೋರ್ ನೋಡಕ್ ಬಹಳ ದೊಡ್ಡದೈತ್ರಿ ಮತ್ತಂದ್ರ ಈ ಮೋರ್ ಒಳಗಡೆ ಎಲ್ಲ ಏನ್ ಮಾಡ್ತಾರಾ ಅಂತಂದ್ರ </noise>--,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,<noise> ಇಲ್ಲಿ ನಾವು ಒಂದು ಜಾತ್ರೆ ಆಗೋದನ್ನ ನೋಡಕ್ ಹೊಂತಿವಿ ರೀ ಈ ಜಾತ್ರೆ ಒಳಗಡೆ ಎಲ್ಲರು ಪಿ.ಪಿ.ಎ {P.P.A} ಮಾರಾಟ ಮಾಡಕ್ ಬಂದಿರ್ತಾರ ಅಂದ್ರ ಜಾತ್ರೆ ಒಳಗಡೆ. </noise>,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಈ ಸಲೂನ್ {Salon} ಒಳಗ್ ಹೋಗಿ ಹುಡುಗ್ರು ಅವ್ರಿಗೆ ಎಂಥ ಬೇಕೋ ಅಂತ ಹೈರ್ಸ್ಟೈಲ್ {hairstyle} ಮಾಡ್ಕೊಂಡ್ ಬರ್ತರೀ ಹುಡ್ಗಿರ್ ಏನ್ ಕಮ್ಮಿ ಇಲ್ಲ ರೀ ಅವ್ರು ಸಲೂನ್ {salon} ಗೆ ಹೋಗಿ ಅವ್ರಿಗ್ ಬೇಕಾದಂತಹ ಹೈರ್ಸ್ಟೈಲ್ {hairstyle} ಮಾಡ್ಕೊಂಡ್ ಬರ್ತರೀ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,go,ಹೋಗಿ,ಈ ಸಲೂನ್ {Salon} ಒಳಗ್ ಹೋಗಿ ಹುಡುಗ್ರು ಅವ್ರಿಗೆ ಎಂಥ ಬೇಕೋ ಅಂತ ಹೈರ್ಸ್ಟೈಲ್ {hairstyle} ಮಾಡ್ಕೊಂಡ್ ಬರ್ತರೀ ಹುಡ್ಗಿರ್ ಏನ್ ಕಮ್ಮಿ ಇಲ್ಲ ರೀ ಅವ್ರು ಸಲೂನ್ {salon} ಗೆ ಹೋಗಿ ಅವ್ರಿಗ್ ಬೇಕಾದಂತಹ ಹೈರ್ಸ್ಟೈಲ್ {hairstyle} ಮಾಡ್ಕೊಂಡ್ ಬರ್ತರೀ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಈ ಚಿತ್ರದಲ್ಲಿ ನಾವು ನೋಡ್ತಿರೋದು ಏನಂದರೆ ಇಲ್ಲಿ ಒಂದು ಯೋಗಾಸನ ಚಿತ್ರವನ್ನ ನೋಡ್ತಿದ್ದೇವೆ ಮತ್ತು --,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಉಮ್ಮ್ ಫೆಡ್ರಲ್ {federal} ಬ್ಯಾಂಕ್ {bank} ಮತ್ತು ಇಲ್ಲಿ [inhaling] ಎಲ್ಲ ತರಹದ ಅಂದರೆ ಅ ಸಾಲಗಳು ಆಗಿರಬಹುದು ಲೋನ್ {loan} ಗಳು ಆಗಿರಬಹುದು --,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ತು ಇಲ್ಲಿ ಇಬ್ಬರು ಹುಡುಗರು ಅಂದರೆ ದೊಡ್ಡವರು ಅವರು ಸೈಕಲ್ {cycle} ಮೇಲೆ ನಿತ್ಕೊಂಡು ಟ್ರೈ {try} ಮಾಡ್ತಾ ಇದ್ದಾರೆ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಇಲ್ಲಿ ಅಹ್ ಕ ಕಲ್ಸದವರು ಬಹಳು ಚನ್ನಾಗಿ ಇದ್ದಾರೆ [inhaling] ಇ ಸ್ಕೂಲ್ {school} ಬಹಳ ದೊಡ್ಡದ ಇದೆ ಇಲ್ಲಿ ಆಟ ಆಡಕ್ಕೆ ಬಹಳ್ ಜಾಗ ಇದೇ ಹುಡುಗುರಿಗೆ [inhaling] ವಾಲಿ {ball} ಬಾಲ್ {volley} ಕೋರ್ಟ್ಸು {courts} ದ ಇಲ್ಲೆ ಇದೆ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Kannada,no,ಇಲ್ಲ,ಬೆಳಗಾಂ ಇಂದ ರೈಲ್ವೆ ಸ್ಟೇಷನ್ {railway station} ಇಲ್ಲಿ ಅಹ್ ಬಹಳಷ್ಟು ಟ್ರೇನ್ ಗಳು ಬರತ್ತಾವೆ ಮತ್ತು ಮಂದಿ ಇಲ್ಲಿ ಬಂದು ಬೇರೆ ಬೇರೆ ಊರಿಗೆ ಹೋಗಕ್ಕೆ ಟ್ರೇನ್ {train} ಹಿಡಿಕೋ ಹಿಡಿತ್ತಾರೆ ಮತ್ತೆ ಇಲ್ಲಿಂದ ಬೇರೆ ಊರಿಗೆ ಹೋಗತ್ತಾರೆ.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,காமியான{less} [unintelligible] இன்னு ஒரு வாட்டி வாங்க{come} ஊர் {village} சைடு வந்த ந [unintelligible] கிடைக்கும் நல்ல சப்படலாம்,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,டிக்கெட்{ticket} வாங்குறாரு ப்லேலிஸ் கூட நல்ல இருக்கு பாக்கறதுக்கு புது புது{new} திரெயின்{train} இருக்கும் சூப்பர் ஆஹ் {super ah}இருக்கு பிளேட்லெஸ்,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,ஒரு காசு வந்துச்சுனா அம்மாக[breathing]நம்மளுக்கு ஒரு உதவி செய்வாங்க காரோ--,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,துங்க{boys} வாங்கு பொது[unintelligible] பசங்க{boys} மாரி வாங்க மாட்டாங்க நல்ல தா வாங்குவாங்க,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,கொழைங்க ஸ்கூல்{school} படிக்கிற கொழந்தைங்க லாம் வந்து நோட் பணலாம் வாங்கிட்டு போவாங்க{will go},literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,இது கட{this is shop} திங்ஸ்{things} லாம் இருக்குது சின்ன{small} பிள்ளைங்க லாம் வந்து விஷயங்கள் வாங்கிடு போவாங்க,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,பகல் லே {morning}தனி போடுவாங்க நைட் லே லைட் போடுவாங்க பாக்கா{looking}நல்ல இருக்கு இங்க நிறைய பேரு வந்து போட்டோ எடுத்துட்டு போவாங்க{will put},literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,இந்த பூவை{this flower} கட்டி சாமி{god} போட்டோ முன்னாடி போடுவாங்க ஏதாச்சு மாற்றியகே உஹ் ந தேகாரோட்டின் பண்றதுக்கு பிறரிச்சிட்டு கொண்டு போவாங்க{will go},literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,எல்லாமே வந்து ஷூட் {shoot} பண்ணுவாங்க ஒரு ஒரு தியேட்டர்ல {theatre} ஐநூறு ரூபாய்ல இருந்து ஆயிரம் ரூபாய் வரைக்கும் விப்பாங்க நல்ல பெரிய ஸ்டார் {star} படம்னா அதிகமான ரேட் {rate} தான் இருக்கும் படம் வந்து நல்லா தரமா பாக்கணும்னா தியேட்டர்ல {theatre} தான் பாக்கனும்.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,பிரார்த்தனை பண்ணுவாங்க அங்க வந்து காபாவ பாத்து ஒரு நாளைக்கு அந்த மசூதில வந்து பிரேயர் {prayer} பன்ற அப்போ அஞ்சு தடவ அவங்க நமாஸ் பண்ணுவாங்க.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,சிப்ஸ்{chips} மற்றும் மெமரி கார்டு {memory card}எலாமை ஸ்பீக்கர்கள் மற்றும் புளூடூத் ஸ்பீக்கர்கள் அத்தலம் செமையா இருக்கு நீங்க வந்தீங்கனா பாத்தீங்கனா வாங்கிடு போலாம்{you can buy},literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,வீட்ல எவ்ளோ பேர் இருக்காங்கோ அவளோ பேர்க்குமே அரிசி குடுப்பாங்க அந்த அந்த மாசதுலே வாங்கிட்டா ரொம்ப நல்லது.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,இதுக்கு தான் ஜனங்க அதிகமா வருவாங்க சாமிய கும்டுரதுல ஜனங்க ரொம்ப முன்னுக்கு வந்துட்டாங்க ஏனா சாமிய எவ்ளோ வேன்றோமோ அவ்ளோவு நம்மலுக்கு தான் நல்லது.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,நின்னு பார்க்க தான் உண்டு மாருதி சுசூகி{maruti suzuki}கம்பெனிஆனா நான் நின்னு பாக்கணும்ஆனா என்னால வாங்க முடியாதே காசு இருந்த வாங்கலாம்,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,இங்க லாம் போய் வீடு கட்டி இருந்தாங்கன்னா ஏவுளோ அழகா இருக்கும் ஆனா ஒரு ஒரு பூவைடிங் வும் அதிகம சொல்லுவாங்க நாலு லச்சம் இல்ல அஞ்சு லட்சம் {4 to 5 lakhs} னு சொல்லுவாங்க{will tell} அதுனாலே வடைக்குகே இருங்க,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,[dog_barking] வந்து யோகா{yoga} பண்ணுவாங்க நல்ல எஷெர்கிஸெ{exercise} பண்ணுவாங்கபண்ணிட்டு போவாங்க ஆனா நம்மளுக்கு அந்த யோகா பண்றது எப்படினு தெரியல நம்ம ஜிம்{Gym} தான் பண்ணுவோம் யோகா எல்லா பண்ணமாட்டோம்,literal_substring,PROVISIONAL_NOT_VERIFIED
+Tamil,come,வாங்க,நாளைக்கு கிரிக்கெட் விளையாடுறேன்{will play} ஒரு நல்ல{feel good} பீல் தரும் இங்க வய சானவங்க ஜாகிங் போவாங்க{will go jogging},literal_substring,PROVISIONAL_NOT_VERIFIED
+Malayalam,no,ഇല്ല,ഇത് ഒരു {apartment} അല്ലങ്കിൽ {school} ഇത് സംഭവായിരിക്കാം ഇത് {mostly} {apartments} ന്റെ {picture} ആണ് വേറെ ഒന്നും കാണിക്കുന്നില്ല ഇത് ഇപ്പം {greenery} ഒന്നും ഇല്ല ഇത് {local} {town} ന്റെ ഒരു {apartment} ആണ്.,literal_substring,PROVISIONAL_NOT_VERIFIED
+Malayalam,no,ഇല്ല,<static_noise> ഇത് പ്രത്യേകത ഒന്നും ഇല്ല കാണാനും അത്രയ്ക്ക് ഭംഗിയൊന്നും ഇല്ല [breathing] ആഹ് പക്ഷേ എല്ലാം ഇടിഞ്ഞ് പൊളിഞ്ഞു കിടക്കുന്നു ആഹ് ഇത് റിനവേഷൻ {renovation} കഴിഞ്ഞതാണോ പൂർത്തിയാക്കാത്താണോന്നൊന്നും പിടി വരുന്നില്ല. </static_noise>,literal_substring,PROVISIONAL_NOT_VERIFIED

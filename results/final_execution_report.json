@@ -1,0 +1,233 @@
+{
+  "project_stage": "four_language_preliminary_pilot",
+  "dataset_shape": [
+    160,
+    40,
+    101,
+    1
+  ],
+  "feature_range": [
+    -1.0,
+    0.0
+  ],
+  "saved_split_sizes": {
+    "train": 112,
+    "validation": 24,
+    "test": 24
+  },
+  "test_samples": 24,
+  "languages": [
+    "kannada",
+    "malayalam",
+    "tamil",
+    "telugu"
+  ],
+  "commands": [
+    "come",
+    "go",
+    "help",
+    "no",
+    "repeat",
+    "start",
+    "stop",
+    "yes"
+  ],
+  "keras": {
+    "accuracy": 0.875,
+    "macro_f1": 0.8770833333333333,
+    "model_size_bytes": 6246083
+  },
+  "tflite": {
+    "accuracy": 0.875,
+    "macro_f1": 0.8770833333333333,
+    "model_size_bytes": 2074036,
+    "latency_median_ms": 0.443439499804299,
+    "latency_p95_ms": 3.3909114499010684,
+    "latency_scope": "Colab interpreter invocation only"
+  },
+  "tflite_vs_keras": {
+    "prediction_agreement": 1.0,
+    "max_probability_difference": 5.185604095458984e-06
+  },
+  "per_language_test_metrics": {
+    "kannada": {
+      "test_samples": 5,
+      "keras_accuracy": 1.0,
+      "tflite_accuracy": 1.0
+    },
+    "malayalam": {
+      "test_samples": 6,
+      "keras_accuracy": 1.0,
+      "tflite_accuracy": 1.0
+    },
+    "tamil": {
+      "test_samples": 7,
+      "keras_accuracy": 0.7142857142857143,
+      "tflite_accuracy": 0.7142857142857143
+    },
+    "telugu": {
+      "test_samples": 6,
+      "keras_accuracy": 0.8333333333333334,
+      "tflite_accuracy": 0.8333333333333334
+    }
+  },
+  "keras_classification_report": {
+    "come": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "go": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "help": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "no": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6666666666666666,
+      "support": 3.0
+    },
+    "repeat": {
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1-score": 0.75,
+      "support": 3.0
+    },
+    "start": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "stop": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "yes": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "accuracy": 0.875,
+    "macro avg": {
+      "precision": 0.9083333333333333,
+      "recall": 0.875,
+      "f1-score": 0.8770833333333333,
+      "support": 24.0
+    },
+    "weighted avg": {
+      "precision": 0.9083333333333333,
+      "recall": 0.875,
+      "f1-score": 0.8770833333333333,
+      "support": 24.0
+    }
+  },
+  "keras_confusion_matrix": [
+    [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "limitations": [
+    "Only 24 test samples.",
+    "Audio-generation provenance remains unverified.",
+    "Speaker independence is unverified.",
+    "Native-language text verification is incomplete.",
+    "Feature preprocessing provenance remains unresolved.",
+    "Latency is measured in Colab, not on physical TinyML hardware.",
+    "Tulu is not included in the evaluated pilot."
+  ],
+  "consistency_checks": {
+    "expected_prior_accuracy_0_875": true,
+    "expected_prior_tflite_accuracy_0_875": true,
+    "expected_prior_prediction_agreement_1_0": true
+  }
+}

@@ -1,0 +1,11 @@
+metric,value,unit
+Dataset samples,160,samples
+Number of command classes,8,classes
+Number of languages,4,languages
+Feature extraction reproduced exactly,False,boolean
+Original sample-level test accuracy,0.875,fraction
+Original sample-level macro F1,0.8770833333333333,fraction
+Family-disjoint test accuracy,0.2,fraction
+Family-disjoint macro F1,0.16869796869796871,fraction
+Base utterances marked generated,32,utterances
+Base utterances text-verified,0,utterances

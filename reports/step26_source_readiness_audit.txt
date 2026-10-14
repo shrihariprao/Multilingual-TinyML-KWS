@@ -1,0 +1,4 @@
+Five-language TinyML KWS: source readiness snapshot
+Planned recording rows: 2000
+Review sheet rows: 40
+No new recordings or translation verification are implied by this report.

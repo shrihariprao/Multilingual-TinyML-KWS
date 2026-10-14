@@ -1,0 +1,33 @@
+﻿language,intent,text,text_verified
+Kannada,yes,ಹೌದು,False
+Kannada,no,ಇಲ್ಲ,False
+Kannada,start,ಪ್ರಾರಂಭಿಸಿ,False
+Kannada,stop,ನಿಲ್ಲಿಸಿ,False
+Kannada,come,ಬನ್ನಿ,False
+Kannada,go,ಹೋಗಿ,False
+Kannada,help,ಸಹಾಯ ಮಾಡಿ,False
+Kannada,repeat,ಮತ್ತೆ ಹೇಳಿ,False
+Tamil,yes,ஆம்,False
+Tamil,no,இல்லை,False
+Tamil,start,தொடங்குங்கள்,False
+Tamil,stop,நிறுத்துங்கள்,False
+Tamil,come,வாருங்கள்,False
+Tamil,go,போங்கள்,False
+Tamil,help,உதவுங்கள்,False
+Tamil,repeat,மீண்டும் சொல்லுங்கள்,False
+Telugu,yes,అవును,False
+Telugu,no,కాదు,False
+Telugu,start,ప్రారంభించండి,False
+Telugu,stop,ఆపండి,False
+Telugu,come,రండి,False
+Telugu,go,వెళ్లండి,False
+Telugu,help,సహాయం చేయండి,False
+Telugu,repeat,మళ్లీ చెప్పండి,False
+Malayalam,yes,അതെ,False
+Malayalam,no,ഇല്ല,False
+Malayalam,start,ആരംഭിക്കുക,False
+Malayalam,stop,നിർത്തുക,False
+Malayalam,come,വരൂ,False
+Malayalam,go,പോകൂ,False
+Malayalam,help,സഹായിക്കുക,False
+Malayalam,repeat,വീണ്ടും പറയുക,False

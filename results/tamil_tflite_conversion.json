@@ -1,0 +1,12 @@
+{
+  "model": "Tamil CNN baseline",
+  "parameters": 2274,
+  "input_shape": "(None, 40, 101, 1)",
+  "output_shape": "(None, 10)",
+  "float32_tflite_bytes": 13488,
+  "dynamic_quant_tflite_bytes": 13488,
+  "float32_tflite_kb": 13.17,
+  "dynamic_quant_tflite_kb": 13.17,
+  "size_reduction_percent": 0.0,
+  "note": "Dynamic-range quantization applied. Accuracy and latency must be measured separately before claiming deployment readiness."
+}

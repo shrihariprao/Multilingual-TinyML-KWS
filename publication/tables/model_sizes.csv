@@ -1,0 +1,12 @@
+model_file,size_bytes,size_mb_decimal,size_mib
+five_language_kws_float32_untrained.tflite,12556,0.0126,0.012
+five_language_kws_untrained.keras,89869,0.0899,0.0857
+multilingual_kws_cnn.keras,64373,0.0644,0.0614
+multilingual_kws_cnn_stratified.keras,64040,0.064,0.0611
+multilingual_kws_family_disjoint.keras,381041,0.381,0.3634
+multilingual_kws_simple_cnn.keras,6246083,6.2461,5.9567
+multilingual_kws_simple_cnn_float32.tflite,2074036,2.074,1.978
+tamil_kws_cnn_best.keras,90076,0.0901,0.0859
+tamil_kws_cnn_classweighted.keras,89558,0.0896,0.0854
+tamil_kws_cnn_dynamic_quant.tflite,13488,0.0135,0.0129
+tamil_kws_cnn_float32.tflite,13488,0.0135,0.0129

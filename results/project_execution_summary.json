@@ -1,0 +1,151 @@
+{
+  "project": "Multilingual TinyML Keyword Spotting",
+  "generated_at": "2026-10-11T18:34:46",
+  "current_data_status": {
+    "language_with_processed_pilot": "Tamil",
+    "processed_clips": 516,
+    "classes": 10,
+    "speakers": 58,
+    "missing_audio_files": 0
+  },
+  "original_split_results": {
+    "cnn": {
+      "experiment": "tamil_10class_logmel_cnn_baseline",
+      "num_classes": 10,
+      "train_clips": 397,
+      "dev_clips": 59,
+      "test_clips": 60,
+      "accuracy": 0.15,
+      "macro_f1": 0.045959595959595964,
+      "training_seconds": 29.00373911857605,
+      "parameter_count": 2274,
+      "sample_rate": 16000,
+      "n_mels": 40,
+      "n_fft": 400,
+      "hop_length": 160,
+      "seed": 42,
+      "classes": [
+        "அந்த",
+        "இந்த",
+        "இனிய",
+        "என்ன",
+        "என்ற",
+        "நல்ல",
+        "பெரிய",
+        "போக",
+        "போல",
+        "வந்த"
+      ]
+    },
+    "svm": {
+      "model": "RBF-SVM",
+      "C": 10,
+      "class_weight": null,
+      "test_accuracy": 0.55,
+      "test_macro_f1": 0.5321428571428573,
+      "test_samples": 60
+    },
+    "warning": "Original source splits have speaker overlap; these test scores are preliminary, not unseen-speaker estimates."
+  },
+  "speaker_disjoint_experiment": {
+    "model": "RBF-SVM with static plus delta log-Mel features",
+    "test_samples": 66,
+    "test_accuracy": 0.4697,
+    "test_macro_f1": 0.4438,
+    "validation_accuracy": 0.4646,
+    "validation_macro_f1": 0.4553,
+    "status": "Exploratory: the test set was examined during multiple experiments, so it is not a pristine final benchmark."
+  },
+  "multilingual_status": {
+    "fleurs_accessible": [
+      "Kannada",
+      "Tamil",
+      "Telugu",
+      "Malayalam"
+    ],
+    "isolated_command_dataset_verified": false,
+    "tulu_dataset_verified": false,
+    "five_language_model_trained": false
+  },
+  "next_steps": [
+    "Establish labeled command recordings for all target languages.",
+    "Use a speaker-independent final evaluation split.",
+    "Train a common multilingual model on verified clips.",
+    "Export a deployable model and measure size and latency."
+  ],
+  "deployment_validation": {
+    "test_samples": 60,
+    "keras_accuracy_recreated_features": 0.15,
+    "float32_tflite": {
+      "file": "tamil_kws_cnn_float32.tflite",
+      "size_bytes": 13488,
+      "accuracy": 0.15,
+      "macro_f1": 0.0468030646443367,
+      "agreement_with_keras": 1.0,
+      "mean_latency_ms": 0.0895280500571971,
+      "median_latency_ms": 0.07712499973422382,
+      "p95_latency_ms": 0.15021595017969958
+    },
+    "dynamic_quant_tflite": {
+      "file": "tamil_kws_cnn_dynamic_quant.tflite",
+      "size_bytes": 13488,
+      "accuracy": 0.15,
+      "macro_f1": 0.0468030646443367,
+      "agreement_with_keras": 1.0,
+      "mean_latency_ms": 0.08324213346592539,
+      "median_latency_ms": 0.07546500000898959,
+      "p95_latency_ms": 0.11437600028330047
+    },
+    "prediction_agreement_with_keras": 1.0,
+    "quantization_size_reduction_percent": 0.0,
+    "latency_environment": "Google Colab CPU; not physical-device benchmarking"
+  },
+  "project_status": "Tamil pilot and TFLite conversion completed; model accuracy improvement and five-language validation remain",
+  "class_weighted_cnn_experiment": {
+    "validation_accuracy": 0.15254237288135594,
+    "validation_macro_f1": 0.1111811081638668,
+    "epochs_completed": 50,
+    "predicted_class_counts": {
+      "அந்த": 0,
+      "இந்த": 0,
+      "இனிய": 6,
+      "என்ன": 2,
+      "என்ற": 0,
+      "நல்ல": 5,
+      "பெரிய": 2,
+      "போக": 12,
+      "போல": 8,
+      "வந்த": 24
+    },
+    "test_set_used_for_selection": false,
+    "interpretation": "Prediction collapse was reduced, but validation performance remained poor; not selected as the primary model."
+  },
+  "model_comparison": {
+    "original_cnn_test_accuracy": 0.15,
+    "original_cnn_test_macro_f1": 0.045959595959595964,
+    "original_split_svm_test_accuracy": 0.55,
+    "original_split_svm_test_macro_f1": 0.5321428571428573,
+    "svm_caveat": "Original train/dev/test split contains speaker overlap; results do not establish unseen-speaker generalization.",
+    "decision": "Prioritize the SVM as the stronger current baseline. Do not claim the CNN is a successful keyword detector."
+  },
+  "leading_explored_speaker_disjoint_baseline": {
+    "model": "RBF-SVM with static and first-order delta log-Mel features",
+    "test_accuracy": 0.4697,
+    "test_macro_f1": 0.4438,
+    "test_samples": 66,
+    "evaluation_status": "Exploratory speaker-disjoint evaluation",
+    "caveat": "The test set was used in multiple exploratory comparisons; these results are not a pristine final benchmark."
+  },
+  "five_language_status": {
+    "languages_in_scope": [
+      "Kannada",
+      "Tamil",
+      "Telugu",
+      "Malayalam",
+      "Tulu"
+    ],
+    "validated_five_language_model": false,
+    "current_experimental_model": "Tamil 10-class pilot",
+    "tulu_command_data": "Not yet established as a validated labelled command dataset"
+  }
+}

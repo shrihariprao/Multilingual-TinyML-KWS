@@ -1,0 +1,40 @@
+{
+  "samples": 160,
+  "feature_shape": [
+    160,
+    40,
+    101,
+    1
+  ],
+  "classes": [
+    "come",
+    "go",
+    "help",
+    "no",
+    "repeat",
+    "start",
+    "stop",
+    "yes"
+  ],
+  "languages": [
+    "kannada",
+    "malayalam",
+    "tamil",
+    "telugu"
+  ],
+  "class_count": 8,
+  "language_count": 4,
+  "finite_features": true,
+  "feature_min": -1.0,
+  "feature_max": 0.0,
+  "feature_mean": -0.8185523748397827,
+  "feature_std": 0.26518523693084717,
+  "unique_audio_paths": 160,
+  "split_sizes": {
+    "train": 112,
+    "validation": 24,
+    "test": 24
+  },
+  "split_indices_disjoint": true,
+  "split_indices_cover_all_samples": true
+}
