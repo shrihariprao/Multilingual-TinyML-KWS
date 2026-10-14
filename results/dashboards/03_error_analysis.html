@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Error Analysis</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fc;color:#172033;font:15px Inter,Arial,sans-serif}
+header{padding:34px 5%;color:white;background:linear-gradient(120deg,#14264c,#315fe7)}header .eyebrow{font-size:12px;letter-spacing:1.6px;font-weight:700;color:#dbe7ff}header h1{font-size:clamp(26px,4vw,42px);margin:12px 0}header p{max-width:950px;line-height:1.65;color:#e5edff}
+main{max-width:1400px;margin:auto;padding:24px 4% 44px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+.card,.panel,.note{background:#fff;border:1px solid #e1e8f4;border-radius:16px;box-shadow:0 5px 20px #18376a0a}
+.card{padding:20px}.label{font-size:12px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.5px}.value{font-size:28px;font-weight:800;margin:12px 0;color:#214cc4;overflow-wrap:anywhere}.detail{color:#64748b;font-size:13px;line-height:1.5}
+.panel{padding:22px;margin-bottom:20px;overflow:hidden}.panel h2,.note h2{margin:0 0 8px;font-size:21px}.panel p,.note p{line-height:1.65;color:#64748b}.chart{width:100%;min-height:360px}
+.note{padding:22px;margin-bottom:20px;line-height:1.7}.warn{border-left:4px solid #e5a02a}.good{border-left:4px solid #3a9a75}
+table{width:100%;border-collapse:collapse;overflow-x:auto;display:block}th,td{padding:11px 13px;text-align:left;border-bottom:1px solid #e8edf5;white-space:nowrap;font-size:13px}th{background:#f6f8fc;color:#475569}
+a{color:#244cc1}footer{font-size:12px;color:#64748b;padding:12px 0 0}
+@media(max-width:600px){header{padding:28px 5%}main{padding:16px 3%}.panel{padding:15px}.chart{min-height:300px}}
+</style></head><body><header><div class="eyebrow">MULTILINGUAL TINYML KEYWORD SPOTTING · RESEARCH PROTOTYPE</div><h1>Error Analysis</h1><p>Inspect the family-disjoint confusion matrix and class-level scores from the saved evaluation report.</p></header><main>
+<div class="grid">
+<div class="card"><div class="label">Test examples</div><div class="value">40</div><div class="detail">Held-out synthetic samples from 8 unique families</div></div>
+<div class="card"><div class="label">Accuracy</div><div class="value">20.0%</div><div class="detail">Family-disjoint evaluation</div></div>
+<div class="card"><div class="label">Macro-F1</div><div class="value">0.169</div><div class="detail">Family-disjoint evaluation</div></div>
+<div class="card"><div class="label">Class count</div><div class="value">8</div><div class="detail">5 true examples per command class</div></div>
+</div>
+<section class="panel"><h2>Family-disjoint confusion matrix</h2><p>Rows are true classes and columns are predicted classes. Counts come directly from family_disjoint_evaluation.json; color intensity represents number of examples.</p><div id="cm" class="chart" style="min-height:520px"></div></section>
+<section class="panel"><h2>Per-class metrics</h2><table><thead><tr><th>Command</th><th>Precision</th><th>Recall</th><th>F1-score</th><th>Support</th></tr></thead><tbody>
+<tr><td>come</td><td>0.000</td><td>0.000</td><td>0.000</td><td>5</td></tr>
+<tr><td>go</td><td>0.000</td><td>0.000</td><td>0.000</td><td>5</td></tr>
+<tr><td>help</td><td>0.167</td><td>0.200</td><td>0.182</td><td>5</td></tr>
+<tr><td>no</td><td>0.200</td><td>0.400</td><td>0.267</td><td>5</td></tr>
+<tr><td>repeat</td><td>0.500</td><td>0.800</td><td>0.615</td><td>5</td></tr>
+<tr><td>start</td><td>0.000</td><td>0.000</td><td>0.000</td><td>5</td></tr>
+<tr><td>stop</td><td>0.000</td><td>0.000</td><td>0.000</td><td>5</td></tr>
+<tr><td>yes</td><td>0.500</td><td>0.200</td><td>0.286</td><td>5</td></tr>
+</tbody></table></section>
+<section class="note warn"><h2>Error-analysis notes</h2><p>The model completely misses several held-out command classes in this small evaluation. This points to a generalization problem for the current prototype, but the small synthetic set cannot establish which acoustic, linguistic, or data-generation factors caused the errors. Inspect and validate the actual audio and labels before drawing causal conclusions.</p></section>
+<script>
+const labels=['come','go','help','no','repeat','start','stop','yes'];
+const z=[[0,1,0,1,1,0,2,0],[0,0,0,5,0,0,0,0],[2,0,1,0,0,0,2,0],[0,0,0,2,1,1,0,1],[0,0,0,0,4,1,0,0],[0,0,3,0,1,0,1,0],[1,0,2,0,1,1,0,0],[1,0,0,2,0,0,1,1]];
+Plotly.newPlot('cm',[{z,x:labels,y:labels,type:'heatmap',colorscale:'Blues',text:z,texttemplate:'%{text}',hovertemplate:'True: %{y}<br>Predicted: %{x}<br>Count: %{z}<extra></extra>',colorbar:{title:'Count'}}],{template:'plotly_white',xaxis:{title:'Predicted label',side:'bottom'},yaxis:{title:'True label',autorange:'reversed'},margin:{t:15,l:100,r:20,b:80}},{responsive:true,displaylogo:false});
+</script><footer>Generated from saved repository evaluation reports. Prototype results only; do not interpret as validated real-world speech performance.</footer></main></body></html>
