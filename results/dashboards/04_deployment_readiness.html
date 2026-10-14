@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deployment Readiness</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fc;color:#172033;font:15px Inter,Arial,sans-serif}
+header{padding:34px 5%;color:white;background:linear-gradient(120deg,#14264c,#315fe7)}header .eyebrow{font-size:12px;letter-spacing:1.6px;font-weight:700;color:#dbe7ff}header h1{font-size:clamp(26px,4vw,42px);margin:12px 0}header p{max-width:950px;line-height:1.65;color:#e5edff}
+main{max-width:1400px;margin:auto;padding:24px 4% 44px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+.card,.panel,.note{background:#fff;border:1px solid #e1e8f4;border-radius:16px;box-shadow:0 5px 20px #18376a0a}
+.card{padding:20px}.label{font-size:12px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.5px}.value{font-size:28px;font-weight:800;margin:12px 0;color:#214cc4;overflow-wrap:anywhere}.detail{color:#64748b;font-size:13px;line-height:1.5}
+.panel{padding:22px;margin-bottom:20px;overflow:hidden}.panel h2,.note h2{margin:0 0 8px;font-size:21px}.panel p,.note p{line-height:1.65;color:#64748b}.chart{width:100%;min-height:360px}
+.note{padding:22px;margin-bottom:20px;line-height:1.7}.warn{border-left:4px solid #e5a02a}.good{border-left:4px solid #3a9a75}
+table{width:100%;border-collapse:collapse;overflow-x:auto;display:block}th,td{padding:11px 13px;text-align:left;border-bottom:1px solid #e8edf5;white-space:nowrap;font-size:13px}th{background:#f6f8fc;color:#475569}
+a{color:#244cc1}footer{font-size:12px;color:#64748b;padding:12px 0 0}
+@media(max-width:600px){header{padding:28px 5%}main{padding:16px 3%}.panel{padding:15px}.chart{min-height:300px}}
+</style></head><body><header><div class="eyebrow">MULTILINGUAL TINYML KEYWORD SPOTTING · RESEARCH PROTOTYPE</div><h1>Deployment Readiness</h1><p>Separate available conversion and model-size evidence from speech validation and physical-device tests still required.</p></header><main>
+<div class="grid">
+<div class="card"><div class="label">Keras artifact</div><div class="value">6.25 MB</div><div class="detail">6,246,083 bytes; simple CNN</div></div>
+<div class="card"><div class="label">TFLite artifact</div><div class="value">2.07 MB</div><div class="detail">2,074,036 bytes; float32 model</div></div>
+<div class="card"><div class="label">Conversion prediction agreement</div><div class="value">100%</div><div class="detail">Agreement between Keras and TFLite predictions in recorded evaluation</div></div>
+<div class="card"><div class="label">Colab interpreter latency</div><div class="value">0.443 ms</div><div class="detail">Median. Not a physical device benchmark.</div></div>
+</div>
+<section class="panel"><h2>Model artifact size</h2><p>File sizes as reported by the saved final execution report. Size alone does not prove deployment suitability.</p><div id="sizeChart" class="chart"></div></section>
+<section class="panel"><h2>Deployment readiness gates</h2><table><thead><tr><th>Gate</th><th>Evidence</th><th>Status</th><th>Next action</th></tr></thead><tbody>
+<tr><td>Model conversion</td><td>Keras/TFLite prediction agreement = 1.0</td><td>Recorded check passes</td><td>Keep conversion report in release artifacts</td></tr>
+<tr><td>Feature reproduction</td><td>Existing feature audit reports exact reproduction</td><td>Recorded check passes</td><td>Document preprocessing and version requirements</td></tr>
+<tr><td>Native speech labels</td><td>0 of 32 base utterances text-verified</td><td>Pending</td><td>Native-speaker verification across languages</td></tr>
+<tr><td>Held-out generalization</td><td>Family-disjoint accuracy 20%; macro-F1 0.169</td><td>Needs improvement</td><td>Expand independent families and test set</td></tr>
+<tr><td>Device latency</td><td>Only Colab interpreter latency recorded (median 0.443 ms; p95 3.391 ms)</td><td>Not device-validated</td><td>Benchmark on target hardware</td></tr>
+<tr><td>Memory and energy</td><td>No physical-device measurement in saved report</td><td>Not measured</td><td>Measure peak RAM, flash, and energy on device</td></tr>
+<tr><td>Real-world noise/accents</td><td>No validated human-speech evaluation reported</td><td>Not established</td><td>Run real-user and environmental robustness tests</td></tr>
+</tbody></table></section>
+<section class="note warn"><h2>Deployment conclusion</h2><p><b>Research prototype; not yet deployment-validated.</b> The saved latency values are explicitly limited to Colab interpreter invocation and must not be presented as TinyML device latency. Real speech validation, improved family-disjoint generalization, and target-hardware measurements remain necessary.</p></section>
+<script>
+Plotly.newPlot('sizeChart',[{x:['Keras','TFLite'],y:[6.246083,2.074036],type:'bar',marker:{color:['#315fe7','#18a999']},text:['6.25 MB','2.07 MB'],textposition:'outside'}],{template:'plotly_white',margin:{t:15,l:60,r:20,b:55},yaxis:{title:'Size (MB)',rangemode:'tozero'}},{responsive:true,displaylogo:false});
+</script><footer>Generated from saved repository evaluation reports. Prototype results only; do not interpret as validated real-world speech performance.</footer></main></body></html>
