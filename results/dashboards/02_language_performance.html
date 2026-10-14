@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Performance by Language</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fc;color:#172033;font:15px Inter,Arial,sans-serif}
+header{padding:34px 5%;color:white;background:linear-gradient(120deg,#14264c,#315fe7)}header .eyebrow{font-size:12px;letter-spacing:1.6px;font-weight:700;color:#dbe7ff}header h1{font-size:clamp(26px,4vw,42px);margin:12px 0}header p{max-width:950px;line-height:1.65;color:#e5edff}
+main{max-width:1400px;margin:auto;padding:24px 4% 44px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+.card,.panel,.note{background:#fff;border:1px solid #e1e8f4;border-radius:16px;box-shadow:0 5px 20px #18376a0a}
+.card{padding:20px}.label{font-size:12px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.5px}.value{font-size:28px;font-weight:800;margin:12px 0;color:#214cc4;overflow-wrap:anywhere}.detail{color:#64748b;font-size:13px;line-height:1.5}
+.panel{padding:22px;margin-bottom:20px;overflow:hidden}.panel h2,.note h2{margin:0 0 8px;font-size:21px}.panel p,.note p{line-height:1.65;color:#64748b}.chart{width:100%;min-height:360px}
+.note{padding:22px;margin-bottom:20px;line-height:1.7}.warn{border-left:4px solid #e5a02a}.good{border-left:4px solid #3a9a75}
+table{width:100%;border-collapse:collapse;overflow-x:auto;display:block}th,td{padding:11px 13px;text-align:left;border-bottom:1px solid #e8edf5;white-space:nowrap;font-size:13px}th{background:#f6f8fc;color:#475569}
+a{color:#244cc1}footer{font-size:12px;color:#64748b;padding:12px 0 0}
+@media(max-width:600px){header{padding:28px 5%}main{padding:16px 3%}.panel{padding:15px}.chart{min-height:300px}}
+</style></head><body><header><div class="eyebrow">MULTILINGUAL TINYML KEYWORD SPOTTING · RESEARCH PROTOTYPE</div><h1>Performance by Language</h1><p>Compare saved sample-level baseline and family-disjoint accuracy across four evaluated languages.</p></header><main>
+<div class="grid">
+<div class="card"><div class="label">Languages evaluated</div><div class="value">4</div><div class="detail">Sample-level and family-disjoint splits</div></div>
+<div class="card"><div class="label">Sample-level test set</div><div class="value">24</div><div class="detail">5–7 samples per language</div></div>
+<div class="card"><div class="label">Family-disjoint test set</div><div class="value">40</div><div class="detail">10 samples per language</div></div>
+<div class="card"><div class="label">Interpretation</div><div class="value">Preliminary</div><div class="detail">Synthetic samples; small test groups</div></div>
+</div>
+<section class="panel"><h2>Accuracy by language</h2><p>Values are copied from per-language saved evaluation metrics. Small sample counts mean each example has a large effect on the percentage.</p><div id="langChart" class="chart"></div></section>
+<section class="panel"><h2>Underlying values</h2><table><thead><tr><th>Language</th><th>Sample-level test n</th><th>Sample-level accuracy</th><th>Family-disjoint n</th><th>Family-disjoint accuracy</th><th>Family-disjoint macro-F1</th></tr></thead><tbody>
+<tr><td>Kannada</td><td>5</td><td>100.0%</td><td>10</td><td>40.0%</td><td>0.133</td></tr>
+<tr><td>Malayalam</td><td>6</td><td>100.0%</td><td>10</td><td>0.0%</td><td>0.000</td></tr>
+<tr><td>Tamil</td><td>7</td><td>71.4%</td><td>10</td><td>10.0%</td><td>0.050</td></tr>
+<tr><td>Telugu</td><td>6</td><td>83.3%</td><td>10</td><td>30.0%</td><td>0.122</td></tr>
+</tbody></table></section>
+<section class="note warn"><h2>What this comparison tells us</h2><p>Performance falls substantially under family-disjoint evaluation in all four languages. This is evidence that the sample-level score should not be presented alone. These results do not isolate language as the cause of errors and should not be generalized to native human speakers until the data and transcripts are independently verified.</p></section>
+<script>
+Plotly.newPlot('langChart',[
+{x:['Kannada','Malayalam','Tamil','Telugu'],y:[1,1,0.7142857,0.8333333],type:'bar',name:'Sample-level',marker:{color:'#315fe7'},text:['100%','100%','71.4%','83.3%'],textposition:'outside'},
+{x:['Kannada','Malayalam','Tamil','Telugu'],y:[0.4,0,0.1,0.3],type:'bar',name:'Family-disjoint',marker:{color:'#e58b43'},text:['40%','0%','10%','30%'],textposition:'outside'}
+],{barmode:'group',template:'plotly_white',margin:{t:20,l:50,r:25,b:50},yaxis:{title:'Accuracy',range:[0,1.15},},legend:{orientation:'h',y:1.15}},{responsive:true,displaylogo:false});
+</script><footer>Generated from saved repository evaluation reports. Prototype results only; do not interpret as validated real-world speech performance.</footer></main></body></html>
